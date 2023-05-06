@@ -1,0 +1,25 @@
+{
+  "clients": [
+    {
+      "name": "Egor",
+      "surname": "VAS",
+      "phone": 996587543654,
+      "mail": "egorrvas.@mail.com",
+      "id": 1
+    },
+    {
+      "name": "dastan",
+      "surname": "Kadyrkulov",
+      "phone": 996503675468,
+      "mail": "dastanK@mail.com",
+      "id": 2
+    },
+    {
+      "name": " Meder",
+      "surname": "  Kadyrov",
+      "phone": 996504786578,
+      "mail": "   Meder.mail.com",
+      "id": 3
+    }
+  ]
+}
