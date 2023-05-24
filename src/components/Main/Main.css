@@ -1,0 +1,571 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+  color: white;
+}
+.main_components {
+  background-image: url(../../assets/glavimg.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main_world {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  padding-top: 20%;
+}
+.main_world2 {
+  background-image: url(../../assets/milo.png);
+  background-size: cover;
+  background-position: center;
+}
+.main_world2 {
+  margin-top: 11%;
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main_btn button {
+  background-color: white;
+  border: none;
+  border-radius: 50em;
+  color: black;
+  padding: 1em 2em;
+}
+/* tours----------------------------- */
+.tours_components {
+  background-image: url(../../assets/123.png);
+
+  background-size: cover;
+  height: 70vh;
+  width: 100vw;
+}
+
+.tours_world2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2%;
+}
+
+.tours_world h1 {
+  color: black;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 3%;
+}
+.tours_japan {
+  background-image: url(../../assets/japan.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_greece {
+  background-image: url(../../assets/greece.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_uae {
+  background-image: url(../../assets/uae.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_norway {
+  background-image: url(../../assets/norvegiya.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+/* mainvideo------------------------------- */
+.main_video1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.main_video1 video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main_video1 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay h1 {
+  text-align: center;
+  padding-top: 20%;
+  font-size: 5em;
+}
+.overlay button {
+  margin-left: 20em;
+  font-size: 2em;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+}
+.tours_sweden {
+  background-image: url(../../assets/sweden.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_nider {
+  background-image: url(../../assets/nider.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_iseland {
+  background-image: url(../../assets/island.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_germany {
+  background-image: url(../../assets/germany.jpeg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_fynland {
+  background-image: url(../../assets/fynland.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+/* mainvideo2---------------- */
+.main_video2 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-top: 3%;
+}
+
+.main_video2 video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main_video2 .overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay2 h1 {
+  text-align: center;
+  padding-top: 20%;
+  font-size: 5em;
+}
+.overlay2 button {
+  margin-left: 20em;
+  font-size: 2em;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+}
+.tours_norway {
+  background-image: url(../../assets/norway.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_georgia {
+  background-image: url(../../assets/geor.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_india {
+  background-image: url(../../assets/india.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_italy {
+  background-image: url(../../assets/ital.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_japan2 {
+  background-image: url(../../assets/japan2.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+/* mainvideo3-------------------------- */
+.main_video3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-top: 3%;
+}
+
+.main_video3 video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main_video3 .overlay3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay3 h1 {
+  text-align: center;
+  padding-top: 20%;
+  font-size: 5em;
+}
+.overlay3 button {
+  margin-left: 20em;
+  font-size: 2em;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+}
+.tours_turkey {
+  background-image: url(../../assets/turkey.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_cyprus {
+  background-image: url(../../assets/cyprus.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.tours_uae2 {
+  background-image: url(../../assets/uae2.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_thailand {
+  background-image: url(../../assets/thailand.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_greece2 {
+  background-image: url(../../assets/greece2.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+/* mainvideo4-------------------- */
+.main_video4 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-top: 3%;
+}
+
+.main_video4 video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main_video4 .overlay4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay4 h1 {
+  text-align: center;
+  padding-top: 20%;
+  font-size: 5em;
+}
+.overlay4 button {
+  margin-left: 20em;
+  font-size: 2em;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+}
+.tours_anglia {
+  background-image: url(../../assets/velik1.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_usa {
+  background-image: url(../../assets/USA1.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_kanada {
+  background-image: url(../../assets/Canada1.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_germany2 {
+  background-image: url(../../assets/germany.jpeg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_avstraliya {
+  background-image: url(../../assets/avstr1.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+/* mainvideo5----------------------- */
+.main_video5 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-top: 3%;
+}
+
+.main_video5 video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main_video5 .overlay5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay5 h1 {
+  text-align: center;
+  padding-top: 20%;
+  font-size: 5em;
+}
+.overlay5 button {
+  margin-left: 20em;
+  font-size: 2em;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+}
+.tours_salvador {
+  background-image: url(../../assets/salvador1.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_venezuela {
+  background-image: url(../../assets/venes1.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_nigeria {
+  background-image: url(../../assets/niger1.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_papua {
+  background-image: url(../../assets/papua1.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tours_afghanistan {
+  background-image: url(../../assets/afgan1.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: 14vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+/* footer------------------- */
+.footer {
+  background-color: #333;
+  padding: 30px 0;
+  color: #fff;
+  margin-top: 5%;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer__left {
+  flex: 1;
+}
+
+.footer__logo {
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.footer__description {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.footer__right {
+  flex: 1;
+  text-align: right;
+}
+
+.footer__title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer__contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__contact-item {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.footer__copy {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__copy img {
+  width: 5%;
+}
