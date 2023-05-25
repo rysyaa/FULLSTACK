@@ -1,0 +1,274 @@
+@media (max-width: 768px) {
+  .main_world {
+    font-size: 1.5em;
+    padding-top: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main_world {
+    font-size: 1.2em;
+    /* padding-top: 120%; */
+  }
+}
+
+@media (max-width: 768px) {
+  .main_world2 {
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  .main_world2 h3,
+  h5 {
+    font-size: 0.4em;
+  }
+  .main_world {
+    padding-top: 50%;
+  }
+
+  .main_btn button {
+    margin-top: 10px;
+    padding: 0.7em 1em;
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .main_world2 {
+    padding: 5px;
+  }
+
+  .main_btn button {
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .tours_world2 {
+    flex-wrap: wrap;
+    padding-top: 2%;
+  }
+}
+
+@media (max-width: 480px) {
+  .tours_world h1 {
+    font-size: 2.5em;
+    padding-top: 2%;
+  }
+
+  .tours_japan,
+  .tours_greece,
+  .tours_uae,
+  .tours_norway {
+    height: 30vh;
+    width: 40vw;
+  }
+}
+/* --------------------------------------------- */
+@media (max-width: 768px) {
+  .tours_sweden,
+  .tours_nider,
+  .tours_iseland,
+  .tours_germany,
+  .tours_fynland,
+  .tours_norway,
+  .tours_georgia,
+  .tours_india,
+  .tours_italy,
+  .tours_japan2,
+  .tours_turkey,
+  .tours_cyprus,
+  .tours_uae2,
+  .tours_thailand,
+  .tours_greece2,
+  .tours_anglia,
+  .tours_usa,
+  .tours_kanada,
+  .tours_germany2,
+  .tours_avstraliya,
+  .tours_salvador,
+  .tours_venezuela,
+  .tours_nigeria,
+  .tours_papua,
+  .tours_afghanistan,
+  .tours_japan,
+  .tours_greece,
+  .tours_uae,
+  .tours_norway {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tours_sweden,
+  .tours_nider,
+  .tours_iseland,
+  .tours_germany,
+  .tours_fynland,
+  .tours_norway,
+  .tours_georgia,
+  .tours_india,
+  .tours_italy,
+  .tours_japan2,
+  .tours_turkey,
+  .tours_cyprus,
+  .tours_uae2,
+  .tours_thailand,
+  .tours_greece2,
+  .tours_anglia,
+  .tours_usa,
+  .tours_kanada,
+  .tours_germany2,
+  .tours_avstraliya,
+  .tours_salvador,
+  .tours_venezuela,
+  .tours_nigeria,
+  .tours_papua,
+  .tours_afghanistan,
+  .tours_japan,
+  .tours_greece,
+  .tours_uae,
+  .tours_norway {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .tours_sweden,
+  .tours_nider,
+  .tours_iseland,
+  .tours_germany,
+  .tours_fynland,
+  .tours_norway,
+  .tours_georgia,
+  .tours_india,
+  .tours_italy,
+  .tours_japan2,
+  .tours_turkey,
+  .tours_cyprus,
+  .tours_uae2,
+  .tours_thailand,
+  .tours_greece2,
+  .tours_anglia,
+  .tours_usa,
+  .tours_kanada,
+  .tours_germany2,
+  .tours_avstraliya,
+  .tours_salvador,
+  .tours_venezuela,
+  .tours_nigeria,
+  .tours_papua,
+  .tours_afghanistan,
+  .tours_japan,
+  .tours_greece,
+  .tours_uae,
+  .tours_norway {
+    width: 14vw;
+  }
+}
+/* ------------------- */
+@media (max-width: 768px) {
+  .overlay h1 {
+    font-size: 3em;
+    padding-top: 15%;
+  }
+
+  .overlay button {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay h1 {
+    font-size: 2em;
+    padding-top: 10%;
+  }
+
+  .overlay button {
+    font-size: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .overlay2 h1 {
+    font-size: 3em;
+    padding-top: 15%;
+  }
+
+  .overlay2 button {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay2 h1 {
+    font-size: 2em;
+    padding-top: 10%;
+  }
+
+  .overlay2 button {
+    font-size: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .overlay3 h1 {
+    font-size: 3em;
+    padding-top: 15%;
+  }
+
+  .overlay3 button {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay3 h1 {
+    font-size: 2em;
+    padding-top: 10%;
+  }
+
+  .overlay3 button {
+    font-size: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .overlay4 h1 {
+    font-size: 3em;
+    padding-top: 15%;
+  }
+
+  .overlay4 button {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay4 h1 {
+    font-size: 2em;
+    padding-top: 10%;
+  }
+
+  .overlay4 button {
+    font-size: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .overlay5 h1 {
+    font-size: 3em;
+    padding-top: 15%;
+  }
+
+  .overlay5 button {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay5 h1 {
+    font-size: 2em;
+    padding-top: 10%;
+  }
+
+  .overlay5 button {
+    font-size: 1em;
+  }
+}
