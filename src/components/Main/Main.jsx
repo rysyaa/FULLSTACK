@@ -7,6 +7,7 @@ import mainvideo3 from "../../video/mainvideo3.mp4";
 import mainvideo4 from "../../video/mainvideo4.mp4";
 import mainvideo5 from "../../video/mainvideo5.mp4";
 import mainlogo from "../../assets/mainlogo2.png";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -62,7 +63,9 @@ const Main = () => {
         </video>
         <div className="overlay">
           <h1>BEST COUNTRIES TO LIVE</h1>
-          <button>EXPORT NOW</button>
+          <Link to="/life">
+            <button>EXPORT NOW</button>
+          </Link>
         </div>
       </div>
       <div className="tours_world">
@@ -177,7 +180,7 @@ const Main = () => {
           <button>EXPORT NOW</button>
         </div>
       </div>
-      <div className="tours_world">
+      <div className="tours_world last_tours">
         <div className="tours_world2">
           <div className="tours_salvador">
             <h2>SALVADOR</h2>
