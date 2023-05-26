@@ -1,12 +1,14 @@
 import React from "react";
 import "./Main.css";
+import "./MainMedia.css";
 import mainvideo1 from "../../video/mainvideo1.mp4";
 import mainvideo2 from "../../video/mainvideo2.mp4";
 import mainvideo3 from "../../video/mainvideo3.mp4";
 import mainvideo4 from "../../video/mainvideo4.mp4";
 import mainvideo5 from "../../video/mainvideo5.mp4";
 import mainlogo from "../../assets/mainlogo2.png";
-import mainplane from "../../assets/plane1.png";
+import { Link } from "react-router-dom";
+
 const Main = () => {
   return (
     <>
@@ -36,21 +38,23 @@ const Main = () => {
       <div className="tours_components">
         <div className="tours_world">
           <h1>POPULAR TOURS</h1>
-
-          <div className="tours_world2">
-            <div className="tours_japan">
-              <h2>JAPAN</h2>
-            </div>
-            <div className="tours_greece">
-              <h2>GREECE</h2>
-            </div>
-            <div className="tours_uae">
-              <h2>UAE</h2>
-            </div>
-            <div className="tours_norway">
-              <h2>NORWAY</h2>
-            </div>
-          </div>
+        </div>
+      </div>
+      <div
+        style={{ paddingTop: "4em", paddingBottom: "1em" }}
+        className="tours_world2"
+      >
+        <div className="tours_japan">
+          <h2>JAPAN</h2>
+        </div>
+        <div className="tours_greece">
+          <h2>GREECE</h2>
+        </div>
+        <div className="tours_uae">
+          <h2>UAE</h2>
+        </div>
+        <div className="tours_norway">
+          <h2>NORWAY</h2>
         </div>
       </div>
       <div className="main_video1">
@@ -59,7 +63,9 @@ const Main = () => {
         </video>
         <div className="overlay">
           <h1>BEST COUNTRIES TO LIVE</h1>
-          <button>EXPORT NOW</button>
+          <Link to="/life">
+            <button>EXPORT NOW</button>
+          </Link>
         </div>
       </div>
       <div className="tours_world">
@@ -87,7 +93,9 @@ const Main = () => {
         </video>
         <div className="overlay2">
           <h1>BEST COUNTRIES TO TRAVAL</h1>
-          <button>EXPORT NOW</button>
+          <Link to="/chil">
+            <button>EXPORT NOW</button>
+          </Link>
         </div>
       </div>
       <div className="tours_world">
@@ -115,7 +123,9 @@ const Main = () => {
         </video>
         <div className="overlay3">
           <h1>BEST COUNTRIES TO HOLIDAYS</h1>
-          <button>EXPORT NOW</button>
+          <Link to="/journey">
+            <button>EXPORT NOW</button>
+          </Link>
         </div>
       </div>
       <div className="tours_world">
@@ -143,7 +153,9 @@ const Main = () => {
         </video>
         <div className="overlay4">
           <h1>BEST COUNTRIES TO STUDY</h1>
-          <button>EXPORT NOW</button>
+          <Link to="/work">
+            <button>EXPORT NOW</button>
+          </Link>
         </div>
       </div>
       <div className="tours_world">
@@ -171,10 +183,12 @@ const Main = () => {
         </video>
         <div className="overlay5">
           <h1>COUNTRIES WHICH IT IS BETTER NOT TO VISIT</h1>
-          <button>EXPORT NOW</button>
+          <Link to="/danger">
+            <button>EXPORT NOW</button>
+          </Link>
         </div>
       </div>
-      <div className="tours_world">
+      <div className="tours_world last_tours">
         <div className="tours_world2">
           <div className="tours_salvador">
             <h2>SALVADOR</h2>

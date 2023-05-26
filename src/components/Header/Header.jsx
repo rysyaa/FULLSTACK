@@ -1,21 +1,60 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import mainlogo from "../../assets/mainlogo2.png";
 import "./Header.css";
+import "../Cart/Register.css";
 
 const Header = () => {
+  const [showNav, setShowNav] = useState(false);
+
+  const toggleNav = () => {
+    setShowNav(!showNav);
+  };
+
   return (
-    <>
-      <div className="main_nav">
+    <header>
+      <div className={`main_nav ${showNav ? "show" : ""}`}>
         <img src={mainlogo} alt="" />
+
         <div className="main_divhed">
-          <h3>MAIN</h3>
-          <h3>ABOUT</h3>
-          <h3>TOUR</h3>
-          <h3>BLOG</h3>
-          <button>BOOK NOW</button>
+          <Link to="/">
+            <h3>MAIN</h3>
+          </Link>
+          <h3>TICKET</h3>
+          <h3>CART</h3>
+          <h3>FAVORITES</h3>
+          <Link to="/register">
+            <button>Register</button>
+          </Link>
         </div>
       </div>
-    </>
+      <div
+        style={{
+          left: "10px",
+          top: "10px",
+          padding: "0.3em",
+          width: "20%",
+          position: "absolute",
+          backgroundColor: "white",
+          borderRadius: "1em",
+        }}
+        className={`burger ${showNav ? "open" : ""}`}
+        onClick={toggleNav}
+      >
+        <div style={{ marginRight: "80%" }} className="line"></div>
+        <div style={{ marginRight: "80%" }} className="line"></div>
+        <div style={{ marginRight: "80%" }} className="line"></div>
+        {showNav ? (
+          <div className="main_divhed">
+            <h3 style={{ color: "black" }}>MAIN</h3>
+            <h3 style={{ color: "black" }}>ABOUT</h3>
+            <h3 style={{ color: "black" }}>TOUR</h3>
+            <h3 style={{ color: "black" }}>BLOG</h3>
+            <button style={{ color: "black" }}>Register</button>
+          </div>
+        ) : null}
+      </div>
+    </header>
   );
 };
 

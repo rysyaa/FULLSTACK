@@ -4,3 +4,10 @@
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
 }
+button,
+h3 {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}

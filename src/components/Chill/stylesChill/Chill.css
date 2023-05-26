@@ -1,0 +1,110 @@
+.life_conteiner1 {
+  background-image: url(../../../assets/ghilbg.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  min-height: 360vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.life_norway {
+  background-image: url(../../../assets/norwayraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_norway h1 {
+  padding-top: 9%;
+  text-align: center;
+  font-size: 10em;
+}
+.life_georgia {
+  background-image: url(../../../assets/georgraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_georgia h1 {
+  text-align: center;
+  padding-top: 9%;
+  font-size: 10em;
+}
+.life_india {
+  background-image: url(../../../assets/indiaraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_india h1 {
+  text-align: center;
+  padding-top: 9%;
+  font-size: 10em;
+}
+.life_italy {
+  background-image: url(../../../assets/italiraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_italy h1 {
+  padding-top: 9%;
+  text-align: center;
+  font-size: 10em;
+}
+.life_japan {
+  background-image: url(../../../assets/japunrez.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_japan h1 {
+  text-align: center;
+  padding-top: 9%;
+  font-size: 10em;
+}
+
+/* ---------------------media */
+@media screen and (max-width: 1179px) {
+  .life_norway h1,
+  .life_georgia h1,
+  .life_india h1,
+  .life_italy h1,
+  .life_japan h1 {
+    font-size: 4em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .life_norway h1,
+  .life_georgia h1,
+  .life_india h1,
+  .life_italy h1,
+  .life_japan h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .life_norway,
+  .life_georgia,
+  .life_india,
+  .life_italy,
+  .life_japan {
+    width: 90vw;
+  }
+
+  .life_norway h1,
+  .life_georgia h1,
+  .life_india h1,
+  .life_italy h1,
+  .life_japan h1 {
+    font-size: 1em;
+  }
+}

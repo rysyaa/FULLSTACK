@@ -1,0 +1,110 @@
+.life_conteiner4 {
+  background-image: url(../../../assets/dangerbg.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  min-height: 360vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.life_salvador {
+  background-image: url(../../../assets/salvaraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_salvador h1 {
+  padding-top: 9%;
+  text-align: center;
+  font-size: 10em;
+}
+.life_venezuela {
+  background-image: url(../../../assets/venikraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_venezuela h1 {
+  text-align: center;
+  padding-top: 9%;
+  font-size: 10em;
+}
+.life_nigeria {
+  background-image: url(../../../assets/nigerraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_nigeria h1 {
+  text-align: center;
+  padding-top: 9%;
+  font-size: 10em;
+}
+.life_papua {
+  background-image: url(../../../assets/papuaraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_papua h1 {
+  padding-top: 9%;
+  text-align: center;
+  font-size: 10em;
+}
+.life_afghanistan {
+  background-image: url(../../../assets/afganraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_afghanistan h1 {
+  text-align: center;
+  padding-top: 9%;
+  font-size: 10em;
+}
+
+/* ---------------------media */
+@media screen and (max-width: 1179px) {
+  .life_salvador h1,
+  .life_venezuela h1,
+  .life_nigeria h1,
+  .life_papua h1,
+  .life_afghanistan h1 {
+    font-size: 4em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .life_salvador h1,
+  .life_venezuela h1,
+  .life_nigeria h1,
+  .life_papua h1,
+  .life_afghanistan h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .life_salvador,
+  .life_venezuela,
+  .life_nigeria,
+  .life_papua,
+  .life_afghanistan {
+    width: 90vw;
+  }
+
+  .life_salvador h1,
+  .life_venezuela h1,
+  .life_nigeria h1,
+  .life_papua h1,
+  .life_afghanistan h1 {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,110 @@
+.life_conteiner2 {
+  background-image: url(../../../assets/travalBG.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  min-height: 360vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.life_turkey {
+  background-image: url(../../../assets/turkeyraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_turkey h1 {
+  padding-top: 9%;
+  text-align: center;
+  font-size: 10em;
+}
+.life_cyprus {
+  background-image: url(../../../assets/cyprysraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_cyprus h1 {
+  text-align: center;
+  padding-top: 9%;
+  font-size: 10em;
+}
+.life_uae {
+  background-image: url(../../../assets/USAraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_uae h1 {
+  text-align: center;
+  padding-top: 9%;
+  font-size: 10em;
+}
+.life_thailand {
+  background-image: url(../../../assets/thairaz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_thailand h1 {
+  padding-top: 9%;
+  text-align: center;
+  font-size: 10em;
+}
+.life_greece {
+  background-image: url(../../../assets/greeceraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_greece h1 {
+  text-align: center;
+  padding-top: 9%;
+  font-size: 10em;
+}
+
+/* ---------------------media */
+@media screen and (max-width: 1179px) {
+  .life_turkey h1,
+  .life_cyprus h1,
+  .life_uae h1,
+  .life_thailand h1,
+  .life_greece h1 {
+    font-size: 4em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .life_turkey h1,
+  .life_cyprus h1,
+  .life_uae h1,
+  .life_thailand h1,
+  .life_greece h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .life_turkey,
+  .life_cyprus,
+  .life_uae,
+  .life_thailand,
+  .life_greece {
+    width: 90vw;
+  }
+
+  .life_turkey h1,
+  .life_cyprus h1,
+  .life_uae h1,
+  .life_thailand h1,
+  .life_greece h1 {
+    font-size: 1em;
+  }
+}
