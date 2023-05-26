@@ -1,3 +1,6 @@
+h1 {
+  cursor: pointer;
+}
 .life_conteiner {
   background-image: url(../../../assets/LifeBG.png);
   background-size: cover;
@@ -46,14 +49,14 @@
   padding-top: 9%;
   font-size: 10em;
 }
-.life_germany {
+.life_germany1 {
   background-image: url(../../../assets/gerraz.jpg);
   background-size: cover;
   min-height: 50vh;
   width: 80vw;
   border-radius: 1em;
 }
-.life_germany h1 {
+.life_germany1 h1 {
   padding-top: 9%;
   text-align: center;
   font-size: 10em;
@@ -69,4 +72,41 @@
   text-align: center;
   padding-top: 9%;
   font-size: 10em;
+}
+/* ---------------------media */
+@media screen and (max-width: 1179px) {
+  .life_switzerland h1,
+  .life_nederland h1,
+  .life_iceland h1,
+  .life_germany1 h1,
+  .life_fynland h1 {
+    font-size: 4em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .life_switzerland h1,
+  .life_nederland h1,
+  .life_iceland h1,
+  .life_germany1 h1,
+  .life_fynland h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .life_switzerland,
+  .life_nederland,
+  .life_iceland,
+  .life_germany1,
+  .life_fynland {
+    width: 90vw;
+  }
+
+  .life_switzerland h1,
+  .life_nederland h1,
+  .life_iceland h1,
+  .life_germany1 h1,
+  .life_fynland h1 {
+    font-size: 1em;
+  }
 }

@@ -1,0 +1,110 @@
+.life_conteiner3 {
+  background-image: url(../../../assets/studybg.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  min-height: 360vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.life_anglia {
+  background-image: url(../../../assets/angraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_anglia h1 {
+  padding-top: 9%;
+  text-align: center;
+  font-size: 10em;
+}
+.life_usa {
+  background-image: url(../../../assets/USAraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_usa h1 {
+  text-align: center;
+  padding-top: 9%;
+  font-size: 10em;
+}
+.life_kanada {
+  background-image: url(../../../assets/Canraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_kanada h1 {
+  text-align: center;
+  padding-top: 9%;
+  font-size: 10em;
+}
+.life_germany {
+  background-image: url(../../../assets/gerraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_germany h1 {
+  padding-top: 9%;
+  text-align: center;
+  font-size: 10em;
+}
+.life_avstraliya {
+  background-image: url(../../../assets/avstrraz.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 80vw;
+  border-radius: 1em;
+}
+.life_avstraliya h1 {
+  text-align: center;
+  padding-top: 9%;
+  font-size: 10em;
+}
+
+/* ---------------------media */
+@media screen and (max-width: 1179px) {
+  .life_anglia h1,
+  .life_usa h1,
+  .life_kanada h1,
+  .life_germany h1,
+  .life_avstraliya h1 {
+    font-size: 4em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .life_anglia h1,
+  .life_usa h1,
+  .life_kanada h1,
+  .life_germany h1,
+  .life_avstraliya h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .life_anglia,
+  .life_usa,
+  .life_kanada,
+  .life_germany,
+  .life_avstraliya {
+    width: 90vw;
+  }
+
+  .life_anglia h1,
+  .life_usa h1,
+  .life_kanada h1,
+  .life_germany h1,
+  .life_avstraliya h1 {
+    font-size: 1em;
+  }
+}

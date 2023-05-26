@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import mainlogo from "../../assets/mainlogo2.png";
 import "./Header.css";
+import "../Cart/Register.css";
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
@@ -13,12 +15,17 @@ const Header = () => {
     <header>
       <div className={`main_nav ${showNav ? "show" : ""}`}>
         <img src={mainlogo} alt="" />
+
         <div className="main_divhed">
-          <h3>MAIN</h3>
-          <h3>ABOUT</h3>
-          <h3>TOUR</h3>
-          <h3>BLOG</h3>
-          <button>Register</button>
+          <Link to="/">
+            <h3>MAIN</h3>
+          </Link>
+          <h3>TICKET</h3>
+          <h3>CART</h3>
+          <h3>FAVORITES</h3>
+          <Link to="/register">
+            <button>Register</button>
+          </Link>
         </div>
       </div>
       <div

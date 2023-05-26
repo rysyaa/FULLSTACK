@@ -15,7 +15,7 @@ const Life = () => {
         <div className="life_iceland">
           <h1>ICELAND</h1>
         </div>
-        <div className="life_germany">
+        <div className="life_germany1">
           <h1>GERMANY</h1>
         </div>
         <div className="life_fynland">

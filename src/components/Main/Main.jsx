@@ -93,7 +93,9 @@ const Main = () => {
         </video>
         <div className="overlay2">
           <h1>BEST COUNTRIES TO TRAVAL</h1>
-          <button>EXPORT NOW</button>
+          <Link to="/chil">
+            <button>EXPORT NOW</button>
+          </Link>
         </div>
       </div>
       <div className="tours_world">
@@ -121,7 +123,9 @@ const Main = () => {
         </video>
         <div className="overlay3">
           <h1>BEST COUNTRIES TO HOLIDAYS</h1>
-          <button>EXPORT NOW</button>
+          <Link to="/journey">
+            <button>EXPORT NOW</button>
+          </Link>
         </div>
       </div>
       <div className="tours_world">
@@ -149,7 +153,9 @@ const Main = () => {
         </video>
         <div className="overlay4">
           <h1>BEST COUNTRIES TO STUDY</h1>
-          <button>EXPORT NOW</button>
+          <Link to="/work">
+            <button>EXPORT NOW</button>
+          </Link>
         </div>
       </div>
       <div className="tours_world">
@@ -177,7 +183,9 @@ const Main = () => {
         </video>
         <div className="overlay5">
           <h1>COUNTRIES WHICH IT IS BETTER NOT TO VISIT</h1>
-          <button>EXPORT NOW</button>
+          <Link to="/danger">
+            <button>EXPORT NOW</button>
+          </Link>
         </div>
       </div>
       <div className="tours_world last_tours">

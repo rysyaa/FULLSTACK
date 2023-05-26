@@ -8,3 +8,6 @@ button,
 h3 {
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+}
