@@ -2,7 +2,7 @@ import React from "react";
 import AddPeople from "./AddPeople";
 import "../Cart/Register.css";
 import mainvideo1 from "../../video/mainvideo1.mp4";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Registration = () => {
   const navigate = useNavigate();
