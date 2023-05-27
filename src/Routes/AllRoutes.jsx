@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Registration from "../components/Cart/Registration";
+import Ticket from "../components/Cart/Ticket";
 import Chill from "../components/Chill/Chill";
 import Danger from "../components/Danger/Danger";
 import Journey from "../components/Journey/Journey";
@@ -19,6 +20,7 @@ const AllRoutes = () => {
         <Route path="/work" element={<Work />} />
         <Route path="/danger" element={<Danger />} />
         <Route path="/register" element={<Registration />} />
+        <Route path="/ticket" element={<Ticket />} />
       </Routes>
     </div>
   );
