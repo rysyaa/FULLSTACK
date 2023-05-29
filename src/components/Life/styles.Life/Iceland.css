@@ -1,0 +1,96 @@
+.ice_container {
+  background-image: url(../../../assets/icekar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  min-height: 360vh;
+  width: 100vw;
+}
+.ice_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.ice_rey {
+  background-image: url("https://cdn.britannica.com/71/73371-050-9DFAEC1E/Reykjavik-Iceland.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ice_kop {
+  background-image: url("https://i.pinimg.com/originals/f1/8b/b8/f18bb8771b9a12a306f6e16415f53275.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ice_haf {
+  background-image: url("https://adventures.com/media/208425/hafnarfjordur-town-iceland-oceanside-view-buildings.jpg?anchor=center&mode=crop&width=970&height=645&rnd=132816308200000000&quality=80&format=jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ice_kef {
+  background-image: url("https://cdn.getyourguide.com/img/tour/60faad038660c.jpeg/146.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ice_aku {
+  background-image: url("https://glacialexperience.is/wp-content/uploads/2021/09/DSC_0157-003.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ice_gar {
+  background-image: url("https://www.campervaniceland.com/assets/img/blog/263/iceland-cities-gardabaer.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ice_mos {
+  background-image: url("https://media.istockphoto.com/id/886335174/photo/farm-in-city-of-mosfellsbaer-capital-region-iceland.jpg?s=612x612&w=0&k=20&c=pHiYP752o7HaeEBny-5g8KRZr6nGGUWWtQ9yYKiWuu0=");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ice_arb {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a6/Arborg_CPR_Station.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

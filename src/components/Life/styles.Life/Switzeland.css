@@ -1,0 +1,112 @@
+.sweden_container {
+  background-image: url(../../../assets/swedkar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  min-height: 360vh;
+  width: 100vw;
+}
+.sweden_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.sweden_stok {
+  background-image: url("https://a.cdn-hotels.com/gdcs/production103/d420/ada795b9-14fe-4289-988a-50fc4ddb0075.jpg");
+  background-size: cover;
+  /* background-repeat: none; */
+  /* background-attachment: fixed; */
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.sweden_got {
+  background-image: url("https://a.cdn-hotels.com/gdcs/production89/d1263/70b40c81-1eeb-49a9-b9fd-425a69c3ec40.jpg");
+  background-size: cover;
+  /* background-repeat: none; */
+  /* background-attachment: fixed; */
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.sweden_karl {
+  background-image: url("https://content.r9cdn.net/rimg/dimg/1f/97/beb77708-city-35686-1727d290f84.jpg?width=1200&height=630&crop=true");
+  background-size: cover;
+  /* background-repeat: none; */
+  /* background-attachment: fixed; */
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.sweden_mal {
+  background-image: url("https://images.ctfassets.net/mivicpf5zews/3VVGmdQG4oDTTRK3OZiGV7/ccfc8e1803b5d3cf7a8149311ed4bd6c/Untitled-14.jpg?q=75");
+  background-size: cover;
+  /* background-repeat: none; */
+  /* background-attachment: fixed; */
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.sweden_lin {
+  background-image: url("https://www.inficon.com/uploads/media/1200x630/02/1212-Sweden_Link%C3%B6ping.jpg?v=1-0");
+  background-size: cover;
+  /* background-repeat: none; */
+  /* background-attachment: fixed; */
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.sweden_kir {
+  background-image: url("https://images.vy.no/2qlajfeadd/Icehotel%20Sverige.jpg");
+  background-size: cover;
+  /* background-repeat: none; */
+  /* background-attachment: fixed; */
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.sweden_yst {
+  background-image: url("https://planetofhotels.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Ystad.jpg");
+  background-size: cover;
+  /* background-repeat: none; */
+  /* background-attachment: fixed; */
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.sweden_kal {
+  background-image: url("https://previews.123rf.com/images/feferoni/feferoni1707/feferoni170700007/81982150-image-of-city-gate-tower-in-kalmar-sweden.jpg");
+  background-size: cover;
+  /* background-repeat: none; */
+  /* background-attachment: fixed; */
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

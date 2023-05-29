@@ -1,13 +1,14 @@
 import React from "react";
 import "./styles.Life/Life.css";
 import mainlogo from "../../assets/mainlogo2.png";
+import { Link } from "react-router-dom";
 
 const Life = () => {
   return (
     <>
       <div className="life_conteiner">
         <div className="life_switzerland">
-          <h1>SWITZERLAND</h1>
+          <h1>SWEDEN</h1>
         </div>
         <div className="life_nederland">
           <h1>NEDERLAND</h1>

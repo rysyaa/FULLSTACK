@@ -1,0 +1,96 @@
+.tur_container {
+  background-image: url(../../../assets/turkar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.tur_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.tur_ank {
+  background-image: url("https://i.pinimg.com/originals/29/19/cc/2919cc13c2e5fe2a707c2520b3dc69a7.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tur_ist {
+  background-image: url("https://a.cdn-hotels.com/gdcs/production6/d781/3bae040b-2afb-4b11-9542-859eeb8ebaf1.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tur_edr {
+  background-image: url("https://d1bvpoagx8hqbg.cloudfront.net/originals/edirne-city-fd5858c11d1ec0a59ae812b38ed36e7d.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tur_bur {
+  background-image: url("https://www.deal-tr.com/storage/App/Models/File/bursa%20-%20%D8%A8%D9%88%D8%B1%D8%B5%D8%A9.webp");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tur_izm {
+  background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/220829132911-09-izmir-turkey-kordon.jpg?c=original&q=w_1280,c_fill");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tur_bod {
+  background-image: url("https://planetofhotels.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/bodrum-1.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tur_fet {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fethiye_Town_in_Daylight_%28cropped%29.jpg/1200px-Fethiye_Town_in_Daylight_%28cropped%29.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.tur_ant {
+  background-image: url("https://a.cdn-hotels.com/gdcs/production51/d68/73536c65-1bf5-4cbd-b6e9-4874058902a8.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

@@ -1,0 +1,96 @@
+.ita_container {
+  background-image: url(../../../assets/itakar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.ita_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.ita_rome {
+  background-image: url("https://www.worldatlas.com/upload/7d/45/7e/shutterstock-98484677.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ita_mil {
+  background-image: url("https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2018/07/18174234/Milan-Cathedral.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ita_nap {
+  background-image: url("https://cdn.britannica.com/54/142754-050-94E32692/Naples-Italy.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ita_tur {
+  background-image: url("https://offbeatescapades.com/wp-content/uploads/2021/02/Offbeat-Escapades-Is-Turin-worth-visiting-the-most-underrated-city-in-italy-9.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ita_pal {
+  background-image: url("https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2020/04/16114302/Palermo-seafront-view.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ita_gen {
+  background-image: url("https://www.blumenriviera.co.uk/images/cities_quarters/genova/genua-piazza-ferrari.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ita_bol {
+  background-image: url("https://www.tripsavvy.com/thmb/Wvjf4qly5Y8ewQo8730d4PGBy8A=/2119x1415/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1070080094-7bdba81b255b42b1884840372ec56211.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ita_flo {
+  background-image: url("https://www.travelandleisure.com/thmb/W9XNMUTZdi0wLUutvIBKttpNjL0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/florence-italy-duomo-cathedral-WBAFLORENCE0717-308891d293914a0381decb59737c2a3b.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
