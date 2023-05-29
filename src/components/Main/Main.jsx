@@ -172,10 +172,14 @@ const Main = () => {
             </Link>
           </div>
           <div className="tours_thailand">
-            <h2>THAILAND</h2>
+            <Link to="/thi">
+              <h2>THAILAND</h2>
+            </Link>
           </div>
           <div className="tours_greece2">
-            <h2>GREECE</h2>
+            <Link to="/gre">
+              <h2>GREECE</h2>
+            </Link>
           </div>
         </div>
       </div>
@@ -193,19 +197,29 @@ const Main = () => {
       <div className="tours_world">
         <div className="tours_world2">
           <div className="tours_anglia">
-            <h2>ANGLIA</h2>
+            <Link to="/ang">
+              <h2>ANGLIA</h2>
+            </Link>
           </div>
           <div className="tours_usa">
-            <h2>USA</h2>
+            <Link to="/usa">
+              <h2>USA</h2>
+            </Link>
           </div>
           <div className="tours_kanada">
-            <h2>KANADA</h2>
+            <Link to="/can">
+              <h2>KANADA</h2>
+            </Link>
           </div>
           <div className="tours_germany2">
-            <h2>GERMANY</h2>
+            <Link to="ger">
+              <h2>GERMANY</h2>
+            </Link>
           </div>
           <div className="tours_avstraliya">
-            <h2>AVSTRALIYA</h2>
+            <Link to="/aus">
+              <h2>AVSTRALIYA</h2>
+            </Link>
           </div>
         </div>
       </div>
@@ -223,19 +237,29 @@ const Main = () => {
       <div className="tours_world last_tours">
         <div className="tours_world2">
           <div className="tours_salvador">
-            <h2>SALVADOR</h2>
+            <Link to="/sal">
+              <h2>SALVADOR</h2>
+            </Link>
           </div>
           <div className="tours_venezuela">
-            <h2>VENEZUELA</h2>
+            <Link to="/ven">
+              <h2>VENEZUELA</h2>
+            </Link>
           </div>
           <div className="tours_nigeria">
-            <h2>NIGERIA</h2>
+            <Link to="/nig">
+              <h2>NIGERIA</h2>
+            </Link>
           </div>
           <div className="tours_papua">
-            <h2>PAPUA</h2>
+            <Link to="/pap">
+              <h2>PAPUA</h2>
+            </Link>
           </div>
           <div className="tours_afghanistan">
-            <h2>AFGHANISTAN</h2>
+            <Link to="afg">
+              <h2>AFGHANISTAN</h2>
+            </Link>
           </div>
         </div>
       </div>

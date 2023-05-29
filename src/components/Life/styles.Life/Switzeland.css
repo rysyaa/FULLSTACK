@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: none;
   background-attachment: fixed;
-  min-height: 360vh;
+  /* min-height: 360vh; */
   width: 100vw;
 }
 .sweden_kart {

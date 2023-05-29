@@ -1,0 +1,96 @@
+.can_container {
+  background-image: url(../../../assets/cankar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.can_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.can_tor {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Pollobarca-15051912-2cr_%2817509453180%29.jpg/1200px-Pollobarca-15051912-2cr_%2817509453180%29.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.can_van {
+  background-image: url("https://www.vmcdn.ca/f/files/via/images/tourism/aerial-view-vancouver-coast-septemeber-2021.jpg;w=960");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.can_ott {
+  background-image: url("https://www.ocf-fco.ca/wp-content/uploads/2019/03/ottawacity.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.can_mon {
+  background-image: url("https://images.dailyhive.com/20180601133345/shutterstock_741827539.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.can_que {
+  background-image: url("https://a.cdn-hotels.com/gdcs/production69/d1733/3cfa8c91-8090-4409-8b2e-a70e7dde33d7.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.can_vic {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Melbourne_Western_skyline.jpg/450px-Melbourne_Western_skyline.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.can_cal {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Downtown_Calgary_2020-3.jpg/1200px-Downtown_Calgary_2020-3.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.can_ont {
+  background-image: url("https://storage.googleapis.com/kx-live-ih/images/Ask_Anne_Marie_Which_city_in_Ontar.2e16d0ba.fill-800x450.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

@@ -1,0 +1,46 @@
+.ven_container {
+  background-image: url(../../../assets/venkar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100vw;
+}
+.ven_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.ven_ama {
+  background-image: url("https://media.istockphoto.com/id/656700836/photo/view-of-manaus-with-teatro-amazonas.jpg?s=612x612&w=0&k=20&c=yCH0ot2P_SJKx5TcFuCfLQTF_W6Z5RGyP2tYPR9_Mys=");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ven_apu {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1a/Aterdecer_En_Los_Llanos_De_Apure_%2846754808%29.jpeg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ven_bar {
+  background-image: url("https://media.istockphoto.com/id/1422050488/photo/barinas-venezuela.jpg?s=612x612&w=0&k=20&c=Yx1cT3hOIuzEg8LKsMgWswEDTUTuZl3vP0jS1HVVWMo=");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

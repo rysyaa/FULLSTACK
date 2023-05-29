@@ -1,0 +1,96 @@
+.aus_container {
+  background-image: url(../../../assets/auskar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.aus_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.aus_tas {
+  background-image: url("https://cdn.britannica.com/61/137061-050-7B320944/Hobart-Tasmania-Australia.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.aus_vic {
+  background-image: url("https://strongcitiesnetwork.org/en/wp-content/uploads/sites/5/2018/12/Melbourne_Skyline_from_Rialto_-_Nov_2008-e1544097331365.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.aus_can {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Canberra_viewed_from_Mount_Ainslie.jpg/870px-Canberra_viewed_from_Mount_Ainslie.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.aus_ade {
+  background-image: url("https://d31atr86jnqrq2.cloudfront.net/images/aerial-city-adelaide.jpg?mtime=20190514155209&focal=52.91%+62.65%");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.aus_bri {
+  background-image: url("https://www.brisbane.qld.gov.au/sites/default/files/styles/hero_image/public/images/2022-05/1600x900-city-skyline_0.jpg.webp?itok=IzSQ-MY_");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.aus_dar {
+  background-image: url("https://cdn.britannica.com/36/165136-050-42FF0B8F/view-Darwin-Australia.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.aus_hob {
+  background-image: url("https://cdn.britannica.com/68/191968-050-826AB86C/Hobart-Tasmania-Australia.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.aus_cai {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/86/Cairns_view_of_CBD_3.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

@@ -1,0 +1,96 @@
+.ang_container {
+  background-image: url(../../../assets/velkar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.ang_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.ang_lon {
+  background-image: url("https://www.douglasandgordon.com/media/1903330/aerial-view-ancient-architecture-672532.jpg?crop=0,0.0963568052496329,0,0.15584583792217319&cropmode=percentage&width=1024&height=512&rnd=132506791710000000");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ang_man {
+  background-image: url("https://global-goose.com/wp-content/uploads/2011/04/5253033402_8483345700_z.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ang_lee {
+  background-image: url("https://a.cdn-hotels.com/gdcs/production17/d1400/6127590a-4a67-4a01-a94c-e546ef90ebba.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ang_edi {
+  background-image: url("https://www.historic-uk.com/wp-content/uploads/2017/06/edinburgh.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ang_gla {
+  background-image: url("https://d1xw84ija6gjgy.cloudfront.net/production/b8b6674d4052e35e4553ac6788eb30b5/conversions/HD.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ang_bel {
+  background-image: url("https://aws.visitbelfast.com/app/uploads/2019/05/05181618/Belfast-City-Hall_1557862122.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ang_bri {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/6d/52/58/2-bristol-city-hall.jpg?w=1200&h=-1&s=1");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ang_liv {
+  background-image: url("https://www.centreforcities.org/wp-content/uploads/2016/01/Liverpool_x1650.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

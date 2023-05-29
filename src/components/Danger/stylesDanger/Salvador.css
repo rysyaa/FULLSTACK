@@ -1,0 +1,36 @@
+.sal_container {
+  background-image: url(../../../assets/salkar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100vw;
+}
+.sal_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.sal_soy {
+  background-image: url("https://www.traveltourxp.com/wp-content/uploads/2016/08/Travel-Destinations-In-Soyapango.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.sal_apo {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/bf/Apopa_El_Salvador_Cathedral_2012.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
