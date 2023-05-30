@@ -1,0 +1,47 @@
+{
+  "Tickets": [
+    {
+      "id": 1,
+      "departure": "Saint Petersburg, Russia",
+      "arrival": "Zurich, Switzerland",
+      "departure date": "05/07",
+      "arrival date": "05/07",
+      "flight time": "19h 55m",
+      "flight name": "Airbus A321‑100/200",
+      "price": 456
+    }
+  ],
+  "Category": [
+    {
+      "id": 1,
+      "name": "Economy",
+      "baggage": "23kg",
+      "hand luggage": "10kg",
+      "nutrition": "none",
+      "exchange and return": "return allowed"
+    },
+    {
+      "id": 2,
+      "name": "Comfort",
+      "baggage": "2х32kg",
+      "hand luggage": "2x total weight up to 15 kg",
+      "nutrition": "Meals on board",
+      "exchange and return": "Returns allowed without charge",
+      "preferred seat selection": "Free seat selection service",
+      "business lounge": "Special Business Lounge",
+      "separate landing": "There is a separate landing"
+    },
+    {
+      "id": 3,
+      "name": "Business",
+      "baggage": "2х32kg",
+      "hand luggage": "2x total weight up to 15 kg",
+      "nutrition": "Meals on board-Special menu",
+      "exchange and return": "Returns allowed without charge",
+      "preferred seat selection": "Business class seat selection service",
+      "business lounge": "Special Business Lounge",
+      "separate landing": "There is a separate landing",
+      "separate reception desk": "If there are Business Class check-in desks at the airport"
+    }
+  ]
+}
