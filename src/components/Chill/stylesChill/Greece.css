@@ -1,0 +1,96 @@
+.gre_container {
+  background-image: url(../../../assets/grekar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.gre_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.gre_ath {
+  background-image: url("https://cdn.britannica.com/66/102266-050-FBDEFCA1/acropolis-city-state-Greece-Athens.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.gre_pir {
+  background-image: url("https://cdn.theculturetrip.com/images/56-3710427-pir-pir.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.gre_cor {
+  background-image: url("https://www.dandidis.eu/wp-content/uploads/2015/10/Corfu-2.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.gre_met {
+  background-image: url("https://ak-d.tripcdn.com/images/1mi5n4224umk40sm8ED9B.jpg?proc=source/trip");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.gre_kal {
+  background-image: url("https://www.kalambaka.com/wp-content/uploads/kalampaka.jpg?x95257");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.gre_myk {
+  background-image: url("https://www.greeka.com/village_beach/photos/104/town-gallery-1-480.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.gre_lar {
+  background-image: url("https://www.holidayify.com/wp-content/uploads/Larissa-The-Pinios-Bridge-crossing-the-Peneios-river.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.gre_kala {
+  background-image: url("https://img.itinari.com/pages/images/original/a0f20d92-074c-467d-8585-40cebde7d62b-view-from-above-of-the-city-of-kalamata.jpg?ch=DPR&dpr=2.625&w=1200&h=800&s=44afad1ac021801b92a4f75b520558f7");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

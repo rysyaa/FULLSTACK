@@ -1,0 +1,96 @@
+.neder_container {
+  background-image: url(../../../assets/niderkar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.neder_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.neder_dren {
+  background-image: url("https://exploringthenetherlands.com/wp-content/uploads/2021/07/Assen-Drenthe.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.neder_flev {
+  background-image: url("https://a.travel-assets.com/findyours-php/viewfinder/images/res70/25000/25411-The-Netherlands.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.neder_frie {
+  background-image: url("https://img.theculturetrip.com/wp-content/uploads/2018/02/terschelling-1491563_1920-4.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.neder_geld {
+  background-image: url("https://mediaim.expedia.com/destination/1/9c162bbc0f2ce21f0431a80479b5d0e1.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.neder_gron {
+  background-image: url("https://assets.citynavigator.nl/thumb/dDc92t0_n4rw_6rKX3AamVfa4q-gFRp4wPeD8Btzq44/resizing_type:fit/width:640/height:0/gravity:sm/enlarge:0/aHR0cHM6Ly9hc3NldHMuY2l0eW5hdmlnYXRvci5ubC9rdW1hLWdyb25pbmdlbi91cGxvYWRzL21lZGlhLzVkOWM2MGNhOGU2OGQvaW1nLTA1MjcuanBn.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.neder_lim {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Limburger_Altstadt_verkl.jpg/300px-Limburger_Altstadt_verkl.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.neder_noo {
+  background-image: url("https://www.visitingthedutchcountryside.com/wp-content/uploads/2019/08/best-small-towns-to-visit-north-brabant-netherlands-grave.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.neder_hol {
+  background-image: url("https://www.visitingthedutchcountryside.com/wp-content/uploads/2018/09/off-the-beaten-path-things-to-do-in-Amsterdam-local-Cities-to-visit-Noord-Holland-Netherlands-Visiting-The-Dutch-Countryside--1024x576.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

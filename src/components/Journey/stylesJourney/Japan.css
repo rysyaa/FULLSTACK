@@ -1,0 +1,96 @@
+.jap_container {
+  background-image: url(../../../assets/japkar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.jap_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.jap_tok {
+  background-image: url("https://media.audleytravel.com/-/media/images/home/north-asia-and-russia/japan/activities/tokyo-gettyimages-1131743616-1000x3000.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.jap_sai {
+  background-image: url("https://www.japan-experience.com/sites/default/files/images/content_images/kawagoe-311x.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.jap_aic {
+  background-image: url("https://jw-webmagazine.com/wp-content/uploads/2019/07/jw-5d1f200799eab9.14433780.jpeg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.jap_aki {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/f9/58/21/caption.jpg?w=700&h=-1&s=1");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.jap_chi {
+  background-image: url("https://a3.cdn.japantravel.com/photo/54715-191877/840x560!/chiba-a-taste-of-chiba-s-heritage-191877.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.jap_fuk {
+  background-image: url("https://www.japanmeetings.org/assets/images/plan-your-event/city-search/23-Fukui1.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.jap_gif {
+  background-image: url("https://www.japan-guide.com/thumb/XYZlistXYZe1220_1680.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.jap_gum {
+  background-image: url("https://www.japan-experience.com/sites/default/files/images/content_images/kusatsu-onsen-1a.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

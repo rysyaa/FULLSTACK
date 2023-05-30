@@ -1,0 +1,96 @@
+.cyp_container {
+  background-image: url(../../../assets/cypkar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.cyp_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.cyp_nic {
+  background-image: url("https://cdn1.matadornetwork.com/blogs/1/2019/10/Nice-view-of-Nicosia-Cyprus-1200x853.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.cyp_lim {
+  background-image: url("https://www.cyprusisland.net/sites/default/files/cities/limassol-cyprus.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.cyp_pap {
+  background-image: url("https://thumbs.dreamstime.com/z/view-paphos-city-agioi-anargyroi-church-cyprus-128445831.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.cyp_lam {
+  background-image: url("https://www.roadaffair.com/wp-content/uploads/2020/11/castle-larnaca-cyprus-shutterstock_1047372886.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.cyp_pro {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/33/Modern_new_pedestrian_seaside_road_next_to_Protaras_beach_in_Paralimni.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.cyp_tro {
+  background-image: url("https://staywildtravels.com/wp-content/uploads/2021/01/Pedoulas-1024x727.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.cyp_dal {
+  background-image: url("https://www.cyprusalive.com/img/ckeditor/ekklisia-sto-dalijpg.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.cyp_ger {
+  background-image: url("https://www.cyprusisland.net/sites/default/files/villages/Yeri2.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

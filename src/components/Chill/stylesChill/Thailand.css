@@ -1,0 +1,96 @@
+.thi_container {
+  background-image: url(../../../assets/thikal.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.thi_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.thi_ban {
+  background-image: url("https://img.freepik.com/premium-photo/view-bangkok-city-night-thailand_35076-4304.jpg?w=2000");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.thi_chi {
+  background-image: url("https://www.abercrombiekent.co.uk/-/media/abercrombieandkent/images/page-header-images/asia/thailand/chiang-mai/changmai_0000_thailand-chiang-mai-city-night-bazaar-shutterstock_290349218.jpg?la=en&hash=6961837E869DAB40256240EF94FDDD95340B5C12");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.thi_pat {
+  background-image: url("https://a.cdn-hotels.com/gdcs/production47/d265/82394980-276a-4eb6-bb07-e91d0e9fb88e.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.thi_ayt {
+  background-image: url("https://www.holidify.com/images/cmsuploads/compressed/phra-nakhon-si-ayutthaya-1822502_1920_20190723181422.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.thi_kan {
+  background-image: url("https://www.nomadasaurus.com/wp-content/uploads/2019/07/Things-to-Do-in-Kanchanaburi-Thailand.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.thi_hua {
+  background-image: url("https://live.staticflickr.com/7286/8728214390_5e92ff115b_b.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.thi_chi {
+  background-image: url("https://www.holidify.com/images/cmsuploads/compressed/shutterstock_716681476_20191014164444_20191014164522.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.thi_phe {
+  background-image: url("https://www.indothainews.com/wp-content/uploads/2021/11/Khao-Wang-Phra-Nakhon-Khiri-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B1%E0%B8%87-%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%84%E0%B8%B5%E0%B8%A3%E0%B8%B5-1.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

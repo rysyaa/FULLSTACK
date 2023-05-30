@@ -1,0 +1,96 @@
+.fin_container {
+  background-image: url(../../../assets/gerkar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.fin_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.fin_hel {
+  background-image: url("https://travel2next.com/wp-content/uploads/cities-in-finland-helsinki.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.fin_esp {
+  background-image: url("https://thumbs.dreamstime.com/b/aerial-view-tapiola-neighborhood-espoo-finland-modern-nordic-architecture-winter-cityscape-215263478.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.fin_tam {
+  background-image: url("https://businesstampere.com/wp-content/uploads/2018/09/tampere-is-the-most-attractive-city-in-finland-again.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.fin_van {
+  background-image: url("https://www.vantaa.fi/sites/default/files/styles/hero_xl/public/image/AHa_tiksiblockparty-9705.jpg?h=13698d56&itok=IaALHYn6");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.fin_oul {
+  background-image: url("https://makingcity.eu/wp-content/uploads/2019/04/Oulu_2-1.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.fin_tur {
+  background-image: url("https://content.r9cdn.net/rimg/dimg/f8/8a/c08396eb-city-18246-17314753486.jpg?width=1366&height=768&xhint=1218&yhint=836&crop=true");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.fin_jyv {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c1/Jyvaskyla_centrum.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.fin_kou {
+  background-image: url("https://fcb.visitfinland.com/dam/jcr:bedd49d5-4b95-4d3b-80c4-1f1ce25fd2ec/Kuopio_Kauppahalli_Kesa_2020-edit_web_No%20credits.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

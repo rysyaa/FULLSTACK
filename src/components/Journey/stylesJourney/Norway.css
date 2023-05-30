@@ -1,0 +1,96 @@
+.nor_container {
+  background-image: url(../../../assets/norkar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.nor_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.nor_osl {
+  background-image: url("https://a.cdn-hotels.com/gdcs/production106/d1597/5303351b-a7d2-4775-994a-348002ea13d2.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.nor_ber {
+  background-image: url("https://res.cloudinary.com/simpleview/image/upload/v1574085889/clients/norway/bryggen_wharf_bergen_hordaland_fjord_norway_photo_florian_olbrechts_34ad36ea-f7bc-4150-b48b-af2c2c14628f.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.nor_sta {
+  background-image: url("https://res.cloudinary.com/gofjords-com/image/upload/q_auto:low,f_auto,c_fill,w_2560/v1597841823/Blog%20Content/Stavanger/Why%20Stavanger%20is%20a%20popular%20tourist%20destination%20-%20Robyn%20Roste/Stavanger-harbour-nightlife-Valberg-tower-pink-sky.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.nor_san {
+  background-image: url("https://image.routeyou.com/share/poi/600x315/7839768-en@2x.png");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.nor_tro {
+  background-image: url("https://res.cloudinary.com/simpleview/image/upload/v1603886316/clients/norway/nidelva_trondheim_tr_ndelag_photo_jarle_hagen_visit_trondheim_2_1_ac321e0c-a9ce-4b2b-8954-0a912815213e.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.nor_sand {
+  background-image: url("https://www.hotelscombined.com/rimg/dimg/74/3c/e23fb678-city-25749-166c5a880fc.jpg?width=1366&height=768&xhint=1080&yhint=1029&crop=true");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.nor_ask {
+  background-image: url("https://live.staticflickr.com/111/284074783_4eb1e6b5bb_c.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.nor_dra {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a8/Vinterbilde_av_Bragernes_kirke.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

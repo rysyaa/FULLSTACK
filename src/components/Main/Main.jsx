@@ -14,7 +14,13 @@ const Main = () => {
     <>
       <div className="main_components">
         <div className="main_world">
-          <h1>KNOW THE WORLD</h1>
+          <h1
+            style={{
+              fontSize: "40px",
+            }}
+          >
+            KNOW THE WORLD
+          </h1>
           <h3>WITH US</h3>
         </div>
         <div className="main_world2">
@@ -71,19 +77,29 @@ const Main = () => {
       <div className="tours_world">
         <div className="tours_world2">
           <div className="tours_sweden">
-            <h2>SWEDEN</h2>
+            <Link to="/sweden">
+              <h2>SWEDEN</h2>
+            </Link>
           </div>
           <div className="tours_nider">
-            <h2>NIDERLANDS</h2>
+            <Link to="/nether">
+              <h2>NIDERLANDS</h2>
+            </Link>
           </div>
           <div className="tours_iseland">
-            <h2>ICELAND</h2>
+            <Link to="/ice">
+              <h2>ICELAND</h2>
+            </Link>
           </div>
           <div className="tours_germany">
-            <h2>GERMANY</h2>
+            <Link to="/ger">
+              <h2>GERMANY</h2>
+            </Link>
           </div>
           <div className="tours_fynland">
-            <h2>FYNLAND</h2>
+            <Link to="fin">
+              <h2>FYNLAND</h2>
+            </Link>
           </div>
         </div>
       </div>
@@ -101,19 +117,29 @@ const Main = () => {
       <div className="tours_world">
         <div className="tours_world2">
           <div className="tours_norway">
-            <h2>NORWAY</h2>
+            <Link to="nor">
+              <h2>NORWAY</h2>
+            </Link>
           </div>
           <div className="tours_georgia">
-            <h2>GEORGIA</h2>
+            <Link to="/geor">
+              <h2>GEORGIA</h2>
+            </Link>
           </div>
           <div className="tours_india">
-            <h2>INDIA</h2>
+            <Link to="/ind">
+              <h2>INDIA</h2>
+            </Link>
           </div>
           <div className="tours_italy">
-            <h2>ITALY</h2>
+            <Link to="/ita">
+              <h2>ITALY</h2>
+            </Link>
           </div>
           <div className="tours_japan2">
-            <h2>JAPAN</h2>
+            <Link to="/jap">
+              <h2>JAPAN</h2>
+            </Link>
           </div>
         </div>
       </div>
@@ -131,19 +157,29 @@ const Main = () => {
       <div className="tours_world">
         <div className="tours_world2">
           <div className="tours_turkey">
-            <h2>TURKEY</h2>
+            <Link to="/tur">
+              <h2>TURKEY</h2>
+            </Link>
           </div>
           <div className="tours_cyprus">
-            <h2>CYPRUS</h2>
+            <Link to="/cyp">
+              <h2>CYPRUS</h2>
+            </Link>
           </div>
           <div className="tours_uae2">
-            <h2>UAE</h2>
+            <Link to="/uae">
+              <h2>UAE</h2>
+            </Link>
           </div>
           <div className="tours_thailand">
-            <h2>THAILAND</h2>
+            <Link to="/thi">
+              <h2>THAILAND</h2>
+            </Link>
           </div>
           <div className="tours_greece2">
-            <h2>GREECE</h2>
+            <Link to="/gre">
+              <h2>GREECE</h2>
+            </Link>
           </div>
         </div>
       </div>
@@ -161,19 +197,29 @@ const Main = () => {
       <div className="tours_world">
         <div className="tours_world2">
           <div className="tours_anglia">
-            <h2>ANGLIA</h2>
+            <Link to="/ang">
+              <h2>ANGLIA</h2>
+            </Link>
           </div>
           <div className="tours_usa">
-            <h2>USA</h2>
+            <Link to="/usa">
+              <h2>USA</h2>
+            </Link>
           </div>
           <div className="tours_kanada">
-            <h2>KANADA</h2>
+            <Link to="/can">
+              <h2>KANADA</h2>
+            </Link>
           </div>
           <div className="tours_germany2">
-            <h2>GERMANY</h2>
+            <Link to="ger">
+              <h2>GERMANY</h2>
+            </Link>
           </div>
           <div className="tours_avstraliya">
-            <h2>AVSTRALIYA</h2>
+            <Link to="/aus">
+              <h2>AVSTRALIYA</h2>
+            </Link>
           </div>
         </div>
       </div>
@@ -191,19 +237,29 @@ const Main = () => {
       <div className="tours_world last_tours">
         <div className="tours_world2">
           <div className="tours_salvador">
-            <h2>SALVADOR</h2>
+            <Link to="/sal">
+              <h2>SALVADOR</h2>
+            </Link>
           </div>
           <div className="tours_venezuela">
-            <h2>VENEZUELA</h2>
+            <Link to="/ven">
+              <h2>VENEZUELA</h2>
+            </Link>
           </div>
           <div className="tours_nigeria">
-            <h2>NIGERIA</h2>
+            <Link to="/nig">
+              <h2>NIGERIA</h2>
+            </Link>
           </div>
           <div className="tours_papua">
-            <h2>PAPUA</h2>
+            <Link to="/pap">
+              <h2>PAPUA</h2>
+            </Link>
           </div>
           <div className="tours_afghanistan">
-            <h2>AFGHANISTAN</h2>
+            <Link to="afg">
+              <h2>AFGHANISTAN</h2>
+            </Link>
           </div>
         </div>
       </div>

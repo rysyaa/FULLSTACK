@@ -1,0 +1,96 @@
+.ger_container {
+  background-image: url(../../../assets/gerkar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.ger_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.ger_bav {
+  background-image: url("https://www.worldatlas.com/r/w1200/upload/70/8f/cc/shutterstock-1476964067.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ger_ber {
+  background-image: url("https://www.germany.travel/media/redaktion/content/bundeslaender/berlin/Berlin_Brandenburger_Tor_im_Sonnenuntergang_Leitmotiv_German_Summer_Cities.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ger_bra {
+  background-image: url("https://img.theculturetrip.com/wp-content/uploads/2018/05/9339451555_63f2936336_b-1.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ger_bre {
+  background-image: url("https://a.cdn-hotels.com/gdcs/production6/d1787/9962cb90-7f75-11e8-b6b0-0242ac110007.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ger_ham {
+  background-image: url("https://www.nationsonline.org/gallery/Germany/Hamburger-Rathaus-from-St-Petri.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ger_hem {
+  background-image: url("https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Hamburg-Town-Hall.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ges_hes {
+  background-image: url("https://www.touristsecrets.com/wp-content/uploads/2019/08/braunfels-hessen-germany_pixabay.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ger_sax {
+  background-image: url("https://img.theculturetrip.com/450x/smart/wp-content/uploads/2018/07/quedlinburg-3064073_960_720.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

@@ -1,0 +1,96 @@
+.uae_container {
+  background-image: url(../../../assets/uaekar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.uae_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.uae_dub {
+  background-image: url("https://www.arabianbusiness.com/cloud/2023/01/10/dubai-skyline.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.uae_abu {
+  background-image: url("https://visitabudhabi.ae/-/media/project/vad/where-to-go/about-abu-dhabi/uae-capital-and-surrounds/new-rebrand-images/header/uae-capital-and-surrounds-header.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.uae_sha {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Al_Qasba.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.uae_al {
+  background-image: url("https://www.timeoutabudhabi.com/cloud/timeoutabudhabi/2021/09/09/9WXMYN7x-Al-Ain-1.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.uae_ajm {
+  background-image: url("https://media.istockphoto.com/id/1141299051/photo/skyline-of-ajman-uae.jpg?s=612x612&w=0&k=20&c=SUS_Ucpx4J3Gpe1dhsuFEHDdsGlk6IGqpnDt8r-WyVQ=");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.uae_ras {
+  background-image: url("https://scwcontent.affino.com/AcuCustom/Sitename/DAM/022/Ras_Al_Khaimah_Adobe.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.uae_mus {
+  background-image: url("https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/mussafah-.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.uae_alf {
+  background-image: url("https://www.mashahur.com/blog/wp-content/uploads/2022/02/273638341_5234139509995976_4423661098076425622_n.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

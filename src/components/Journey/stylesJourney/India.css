@@ -1,0 +1,96 @@
+.ind_container {
+  background-image: url(../../../assets/indkar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.ind_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.ind_mum {
+  background-image: url("https://www.burohappold.com/wp-content/uploads/2022/02/Mumbai-skyline_copyright-Adobe-Stock_01.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ind_del {
+  background-image: url("https://media.istockphoto.com/id/658635130/photo/noida-cityscape-at-night.jpg?s=612x612&w=0&k=20&c=T7PESZyED9XLJNznANMiVtm9d8_pgMgfIbLoa3H3Txk=");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ind_ban {
+  background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/201505/bangalore-650_052015052419.jpg?VersionId=ZzEhqYMsqVQlI_BztzHwNXO7yt5KAp9y");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ind_hyd {
+  background-image: url("https://static.toiimg.com/img/94897953/Master.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ind_ahm {
+  background-image: url("https://bl-i.thgim.com/public/migration_catalog/article18276006.ece/alternates/FREE_1200/BL18_Sabarmati_river3.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ind_che {
+  background-image: url("https://media.istockphoto.com/id/469550423/photo/chennai-nightscape.jpg?s=612x612&w=0&k=20&c=ZcUQgu91G7Z31ru3UPVPWhwaPJYmLEHyln8iyXQgPX8=");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ind_kol {
+  background-image: url("https://media.npr.org/assets/img/2016/09/01/gettyimages-2007238_custom-4796253d7b7c1ce8221fc5b4e854bc35f9d5e10c.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.ind_sur {
+  background-image: url("https://static.toiimg.com/thumb/msid-94595399,width-1280,resizemode-4/94595399.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}

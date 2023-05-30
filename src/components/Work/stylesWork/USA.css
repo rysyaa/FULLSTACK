@@ -1,0 +1,96 @@
+.usa_container {
+  background-image: url(../../../assets/usakar.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* min-height: 360vh; */
+  width: 100vw;
+}
+.usa_kart {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.usa_new {
+  background-image: url("https://freedomdestinations.co.uk/wp-content/uploads/Manhattan-Islan.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.usa_los {
+  background-image: url("https://www.worldtravelguide.net/wp-content/uploads/2017/07/shu-USA-California-Los-Angeles-Downtown-27584473-Andrew-Zarivny-HERO.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.usa_chi {
+  background-image: url("https://media.timeout.com/images/105649106/750/422/image.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.usa_hou {
+  background-image: url("https://cdn.houstonpublicmedia.org/wp-content/uploads/2019/05/20161002/IMG_0774.jpg.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.usa_pho {
+  background-image: url("https://cdn.britannica.com/32/191332-050-4ADF1D03/Phoenix-Arizona.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.usa_phi {
+  background-image: url("https://www.pewtrusts.org/-/media/post-launch-images/2020/04/sotc-2020_main.jpg?h=1074&w=1820&la=en&hash=642D8D12C220EC348D4C7B2D469A4260");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.usa_san {
+  background-image: url("https://pv-magazine-usa.com/wp-content/uploads/sites/2/2018/10/San-Diego.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.usa_dal {
+  background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/220323170505-dallas-skyline.jpg?c=16x9&q=w_800,c_fill");
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
