@@ -12,7 +12,7 @@ button {
   background-image: url(../../assets/glavimg.png);
   background-size: cover;
   min-height: 100vh;
-  width: 100vw;
+  width: 98vw;
 }
 
 .main_world {
@@ -28,7 +28,7 @@ button {
   background-position: center;
 }
 .main_world2 {
-  width: 100vw;
+  width: 98vw;
   margin-top: 11%;
   display: flex;
   min-height: 20vh;
@@ -46,7 +46,7 @@ button {
 .tours_components {
   height: 120px;
   padding-bottom: 8vh;
-  width: 100vw;
+  width: 98vw;
 }
 
 .tours_world2 {

@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { createContext, useContext } from 'react'
 
-const PeopleContextProvider = () => {
+export const peopleContext = createContext();
+export const usePeople = () => {
+  return useContext(peopleContext)
+}
+
+const PeopleContextProvider = ({children}) => {
   return (
-    <div>PeopleContextProvider</div>
+    <div>{children}</div>
   )
 }
 

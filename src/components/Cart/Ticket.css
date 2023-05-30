@@ -1,6 +1,6 @@
 .ticket__container {
   padding-top: 9em;
-  background-image: url("../../assets/geor.jpg");
+  background-image: url("../../assets/ticket-bg.jpg");
   background-size: cover;
   height: 100vh;
 }
@@ -30,6 +30,8 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  gap: 1em;
+  width: 70%;
 }
 
 h1 {
@@ -37,15 +39,14 @@ h1 {
   margin-bottom: 10px;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 input {
   padding: 10px;
   width: 200px;
+  border: none;
+  outline: none;
+  border-radius: 1em;
+  width: 300px;
+  height: 4em;
 }
 
 button {
@@ -54,8 +55,22 @@ button {
   color: white;
   border: none;
   cursor: pointer;
+  border-radius: 1em;
 }
 
 button:hover {
   background-color: #0056b3;
+}
+
+.ticket__right, .ticket__left{
+  display: flex;
+  gap: 1em;
+}
+.payment__left, .payment__right{
+  display: flex;
+  gap: 1em;
+}
+.block__inputs{
+  display: flex;
+  flex-direction: column;
 }
