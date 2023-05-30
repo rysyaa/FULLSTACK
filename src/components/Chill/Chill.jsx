@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import mainlogo from "../../assets/mainlogo2.png";
 import "../Chill/stylesChill/Chill.css";
 
@@ -8,19 +9,29 @@ const Chill = () => {
       {" "}
       <div className="life_conteiner1">
         <div className="life_norway">
-          <h1>NORWAY</h1>
+          <Link to="/nor2">
+            <h1>NORWAY</h1>
+          </Link>
         </div>
         <div className="life_georgia">
-          <h1>GEORGIA</h1>
+          <Link to="/geo2">
+            <h1>GEORGIA</h1>
+          </Link>
         </div>
         <div className="life_india">
-          <h1>INDIA</h1>
+          <Link to="/ind2">
+            <h1>INDIA</h1>
+          </Link>
         </div>
         <div className="life_italy">
-          <h1>ITALY</h1>
+          <Link to="/ita2">
+            <h1>ITALY</h1>
+          </Link>
         </div>
         <div className="life_japan">
-          <h1>JAPAN</h1>
+          <Link to="/jap2">
+            <h1>JAPAN</h1>
+          </Link>
         </div>
         <footer className="footer">
           <div className="footer__content">

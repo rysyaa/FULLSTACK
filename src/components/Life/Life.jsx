@@ -8,19 +8,29 @@ const Life = () => {
     <>
       <div className="life_conteiner">
         <div className="life_switzerland">
-          <h1>SWEDEN</h1>
+          <Link to="/swi2">
+            <h1>SWEDEN</h1>
+          </Link>
         </div>
         <div className="life_nederland">
-          <h1>NEDERLAND</h1>
+          <Link to="/ned2">
+            <h1>NEDERLAND</h1>
+          </Link>
         </div>
         <div className="life_iceland">
-          <h1>ICELAND</h1>
+          <Link to="/ice2">
+            <h1>ICELAND</h1>
+          </Link>
         </div>
         <div className="life_germany1">
-          <h1>GERMANY</h1>
+          <Link to="/ger2">
+            <h1>GERMANY</h1>
+          </Link>
         </div>
         <div className="life_fynland">
-          <h1>FYNLAND</h1>
+          <Link to="/fin2">
+            <h1>FYNLAND</h1>
+          </Link>
         </div>
         <footer className="footer">
           <div className="footer__content">

@@ -208,7 +208,7 @@ const Main = () => {
           </div>
           <div className="tours_kanada">
             <Link to="/can">
-              <h2>KANADA</h2>
+              <h2>CANADA</h2>
             </Link>
           </div>
           <div className="tours_germany2">
@@ -218,7 +218,7 @@ const Main = () => {
           </div>
           <div className="tours_avstraliya">
             <Link to="/aus">
-              <h2>AVSTRALIYA</h2>
+              <h2>AUSTRALIA</h2>
             </Link>
           </div>
         </div>
