@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import mainlogo from "../../assets/mainlogo2.png";
 import "../Journey/stylesJourney/Journey.css";
 const Journey = () => {
@@ -7,19 +8,29 @@ const Journey = () => {
       {" "}
       <div className="life_conteiner2">
         <div className="life_turkey">
-          <h1>TURKEY</h1>
+          <Link to="/tur2">
+            <h1>TURKEY</h1>
+          </Link>
         </div>
         <div className="life_cyprus">
-          <h1>CYPRUS</h1>
+          <Link to="/cyp2">
+            <h1>CYPRUS</h1>
+          </Link>
         </div>
         <div className="life_uae">
-          <h1>UAE</h1>
+          <Link to="/uae2">
+            <h1>UAE</h1>
+          </Link>
         </div>
         <div className="life_thailand">
-          <h1>THAILAND</h1>
+          <Link to="/tha2">
+            <h1>THAILAND</h1>
+          </Link>
         </div>
         <div className="life_greece">
-          <h1>GREECE</h1>
+          <Link to="/gre2">
+            <h1>GREECE</h1>
+          </Link>
         </div>
         <footer className="footer">
           <div className="footer__content">
