@@ -15,6 +15,9 @@ import Türkiye from "../components/Chill/Türkiye";
 import Uae from "../components/Chill/Uae";
 import Afghanistan from "../components/Danger/Afghanistan";
 import Danger from "../components/Danger/Danger";
+import Papua2 from "../components/Danger/Danger2/Papua2";
+import Salvador2 from "../components/Danger/Danger2/Salvador2";
+import Venezuela2 from "../components/Danger/Danger2/Venezuela2";
 import Nigeria from "../components/Danger/Nigeria";
 import Papua from "../components/Danger/Papua";
 import Salvador from "../components/Danger/Salvador";
@@ -48,6 +51,10 @@ import Canada from "../components/Work/Canada";
 import GreatBritain from "../components/Work/GreatBritain";
 import USA from "../components/Work/USA";
 import Work from "../components/Work/Work";
+import Australia2 from "../components/Work/Work2/Australia2";
+import Canada2 from "../components/Work/Work2/Canada2";
+import GreatBritain2 from "../components/Work/Work2/GreatBritain2";
+import USA2 from "../components/Work/Work2/USA2";
 
 const AllRoutes = () => {
   return (
@@ -100,6 +107,14 @@ const AllRoutes = () => {
         <Route path="/tha2" element={<Thailand2 />} />
         <Route path="/uae2" element={<Uae2 />} />
         <Route path="/gre2" element={<Greece2 />} />
+        <Route path="/ang2" element={<GreatBritain2 />} />
+        <Route path="/usa2" element={<USA2 />} />
+        <Route path="/can2" element={<Canada2 />} />
+        <Route path="/ger2" element={<Germany2 />} />
+        <Route path="/aus2" element={<Australia2 />} />
+        <Route path="/sal2" element={<Salvador2 />} />
+        <Route path="/ven2" element={<Venezuela2 />} />
+        <Route path="/pap2" element={<Papua2 />} />
       </Routes>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import mainlogo from "../../assets/mainlogo2.png";
 import "../Work/stylesWork/Work.css";
 
@@ -7,19 +8,29 @@ const Work = () => {
     <>
       <div className="life_conteiner3">
         <div className="life_anglia">
-          <h1>ANGLIA</h1>
+          <Link to="/ang2">
+            <h1>ANGLIA</h1>
+          </Link>
         </div>
         <div className="life_usa">
-          <h1>USA</h1>
+          <Link to="/usa2">
+            <h1>USA</h1>
+          </Link>
         </div>
         <div className="life_kanada">
-          <h1>KANADA</h1>
+          <Link to="/can2">
+            <h1>CANADA</h1>
+          </Link>
         </div>
         <div className="life_germany">
-          <h1>GERMANY</h1>
+          <Link to="/ger2">
+            <h1>GERMANY</h1>
+          </Link>
         </div>
         <div className="life_avstraliya">
-          <h1>AVSTRALIYA</h1>
+          <Link to="/aus2">
+            <h1>AVSTRALIYA</h1>
+          </Link>
         </div>
         <footer className="footer">
           <div className="footer__content">

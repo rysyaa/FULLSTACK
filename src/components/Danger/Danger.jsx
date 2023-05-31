@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import mainlogo from "../../assets/mainlogo2.png";
 import "../Danger/stylesDanger/Danger.css";
 
@@ -7,16 +8,22 @@ const Danger = () => {
     <>
       <div className="life_conteiner4">
         <div className="life_salvador">
-          <h1>SALVADOR</h1>
+          <Link to="/sal2">
+            <h1>SALVADOR</h1>
+          </Link>
         </div>
         <div className="life_venezuela">
-          <h1>VENEZUELA</h1>
+          <Link to="/ven2">
+            <h1>VENEZUELA</h1>
+          </Link>
         </div>
         <div className="life_nigeria">
           <h1>NIGERIA</h1>
         </div>
         <div className="life_papua">
-          <h1>PAPUA</h1>
+          <Link to="/pap2">
+            <h1>PAPUA</h1>
+          </Link>
         </div>
         <div className="life_afghanistan">
           <h1>AFGHANISTAN</h1>
