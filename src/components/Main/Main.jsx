@@ -51,16 +51,24 @@ const Main = () => {
         className="tours_world2"
       >
         <div className="tours_japan">
-          <h2>JAPAN</h2>
+          <Link to="/jap2">
+            <h2>JAPAN</h2>
+          </Link>
         </div>
         <div className="tours_greece">
-          <h2>GREECE</h2>
+          <Link to="/gre2">
+            <h2>GREECE</h2>
+          </Link>
         </div>
         <div className="tours_uae">
-          <h2>UAE</h2>
+          <Link to="/uae2">
+            <h2>UAE</h2>
+          </Link>
         </div>
         <div className="tours_norway">
-          <h2>NORWAY</h2>
+          <Link to="/nor2">
+            <h2>NORWAY</h2>
+          </Link>
         </div>
       </div>
       <div className="main_video1">
