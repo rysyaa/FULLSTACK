@@ -1,11 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import mainlogo from "../../assets/mainlogo2.png";
 import "./Header.css";
 import "../Cart/Register.css";
+import { useAuth } from "../../context/AuthContextProvider";
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
+
+  const {checkAuth, handleLogout} = useAuth();
+
+  useEffect(() => {
+    if(localStorage.getItem("tokens")){
+      checkAuth()
+    }
+  },[])
 
   const toggleNav = () => {
     setShowNav(!showNav);
@@ -25,6 +34,7 @@ const Header = () => {
           </Link>
           <h3>CART</h3>
           <h3>FAVORITES</h3>
+          <button onClick={handleLogout}>Logout</button>
           <Link to="/register">
             <button>Register</button>
           </Link>

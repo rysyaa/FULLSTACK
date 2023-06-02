@@ -34,13 +34,23 @@ const AuthContextProvider = ({ children }) => {
     }
   }
 
-  // async function checkAuth(){
-  //   try {
-
-  //   } catch (error) {
-
-  //   }
-  // }
+  async function checkAuth() {
+    try {
+      const tokens = JSON.parse(localStorage.getItem("tokens"));
+      const res = await axios.post(`${API}/account/logout/`, {
+        refresh: tokens.refresh,
+      });
+      localStorage.setItem(
+        "tokens",
+        JSON.stringify({ access: res.data.access, refresh: tokens.refresh })
+      );
+      const email = localStorage.getItem("email");
+      setCurrentUser(email);
+    } catch (error) {
+      console.log(error);
+      handleLogout();
+    }
+  }
 
   function handleLogout() {
     localStorage.removeItem("tokens");
@@ -57,6 +67,7 @@ const AuthContextProvider = ({ children }) => {
     currentUser,
     handleLogin,
     handleLogout,
+    checkAuth,
   };
   return <authContext.Provider value={values}>{children}</authContext.Provider>;
 };

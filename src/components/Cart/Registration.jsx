@@ -7,9 +7,9 @@ import { useAuth } from "../../context/AuthContextProvider";
 const Registration = () => {
   const [username, setUsername] = useState("")
   const [email, setEmail] = useState("")
-  const [phone, setPhone] = useState(0)
-  const [password, setPassword] = useState(0)
-  const [passwordConfirm, setPasswordConfirm] = useState(0)
+  const [phone, setPhone] = useState("")
+  const [password, setPassword] = useState("")
+  const [passwordConfirm, setPasswordConfirm] = useState("")
 
   const {handleRegister, error, setError} = useAuth();
 
