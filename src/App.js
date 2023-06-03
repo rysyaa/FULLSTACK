@@ -7,7 +7,7 @@ const App = () => {
   const location = useLocation();
   return (
     <div>
-      {location.pathname === "/register" ? null : <Header />}
+      {location.pathname === "/register" || location.pathname === "/login" ? null : <Header />}
       {/* <Header /> */}
       <AllRoutes />
     </div>

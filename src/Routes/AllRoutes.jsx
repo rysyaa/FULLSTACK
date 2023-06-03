@@ -55,6 +55,10 @@ import Australia2 from "../components/Work/Work2/Australia2";
 import Canada2 from "../components/Work/Work2/Canada2";
 import GreatBritain2 from "../components/Work/Work2/GreatBritain2";
 import USA2 from "../components/Work/Work2/USA2";
+import Login from "../components/Cart/Login";
+import ShopTickets from "../components/Cart/ShopTickets";
+import Cart from "../components/Cart/Cart";
+import Favorites from "../components/Cart/Favorites";
 
 const AllRoutes = () => {
   return (
@@ -115,6 +119,10 @@ const AllRoutes = () => {
         <Route path="/sal2" element={<Salvador2 />} />
         <Route path="/ven2" element={<Venezuela2 />} />
         <Route path="/pap2" element={<Papua2 />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/shop" element={<ShopTickets />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/favorites" element={<Favorites />} />
       </Routes>
     </div>
   );

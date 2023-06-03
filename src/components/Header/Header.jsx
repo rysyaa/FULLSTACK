@@ -8,13 +8,16 @@ import { useAuth } from "../../context/AuthContextProvider";
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
 
-  const {checkAuth, handleLogout} = useAuth();
+  const { checkAuth, handleLogout, currentUser } = useAuth();
 
-  useEffect(() => {
-    if(localStorage.getItem("tokens")){
-      checkAuth()
-    }
-  },[])
+  const localToken = localStorage.getItem("tokens");
+  const localEmail = localStorage.getItem("email");
+
+  // useEffect(() => {
+  //   if(localStorage.getItem("tokens")){
+  //     checkAuth()
+  //   }
+  // },[])
 
   const toggleNav = () => {
     setShowNav(!showNav);
@@ -24,7 +27,6 @@ const Header = () => {
     <header>
       <div className={`main_nav ${showNav ? "show" : ""}`}>
         <img src={mainlogo} alt="" />
-
         <div className="main_divhed">
           <Link to="/">
             <h3>MAIN</h3>
@@ -32,12 +34,25 @@ const Header = () => {
           <Link to="/ticket">
             <h3>TICKET</h3>
           </Link>
-          <h3>CART</h3>
-          <h3>FAVORITES</h3>
-          <button onClick={handleLogout}>Logout</button>
-          <Link to="/register">
-            <button>Register</button>
+          <Link to="/cart">
+            <h3>CART</h3>
           </Link>
+          <Link to="/favorites">
+            <h3>FAVORITES</h3>
+          </Link>
+          {localToken ? <h3>@{localEmail}</h3> : "no acc"}
+          {localToken ? (
+            <button onClick={() => handleLogout()}>Logout</button>
+          ) : (
+            <div>
+              <Link to="/login">
+                <button>Login</button>
+              </Link>
+              <Link to="/register">
+                <button>Register</button>
+              </Link>
+            </div>
+          )}
         </div>
       </div>
       <div

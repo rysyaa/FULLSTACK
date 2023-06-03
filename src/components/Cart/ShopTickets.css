@@ -1,0 +1,10 @@
+.Shop__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Shop__card{
+    padding-top: 7em;
+    width: 28vw;
+}

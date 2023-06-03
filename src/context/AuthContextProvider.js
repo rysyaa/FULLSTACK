@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 export const authContext = createContext();
 export const useAuth = () => useContext(authContext);
-export const API = "http://34.125.130.11/api/v1";
+export const API = "http://34.125.227.71/api/v1";
 
 const AuthContextProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(null);
@@ -15,7 +15,7 @@ const AuthContextProvider = ({ children }) => {
 
   async function handleRegister(formData) {
     try {
-      await axios.post(`${API}/account/register`, formData);
+      await axios.post(`${API}/account/register/`, formData);
       navigate("/");
     } catch (error) {
       setError(Object.values(error.response.data));
@@ -24,7 +24,8 @@ const AuthContextProvider = ({ children }) => {
 
   async function handleLogin(formData, email) {
     try {
-      const res = await axios.post(`${API}/account/token`, formData);
+      const res = await axios.post(`${API}/account/token/`, formData);
+      console.log(res);
       localStorage.setItem("tokens", JSON.stringify(res.data));
       localStorage.setItem("email", email);
       setCurrentUser(email);
@@ -38,8 +39,10 @@ const AuthContextProvider = ({ children }) => {
     try {
       const tokens = JSON.parse(localStorage.getItem("tokens"));
       const res = await axios.post(`${API}/account/logout/`, {
-        refresh: tokens.refresh,
+        refresh_token: tokens.refresh, 
       });
+      console.log(tokens);
+      console.log(res);
       localStorage.setItem(
         "tokens",
         JSON.stringify({ access: res.data.access, refresh: tokens.refresh })
@@ -48,7 +51,7 @@ const AuthContextProvider = ({ children }) => {
       setCurrentUser(email);
     } catch (error) {
       console.log(error);
-      handleLogout();
+      // handleLogout();
     }
   }
 
@@ -56,7 +59,7 @@ const AuthContextProvider = ({ children }) => {
     localStorage.removeItem("tokens");
     localStorage.removeItem("email");
     setCurrentUser(null);
-    navigate("/register");
+    navigate("/");
   }
 
   const values = {

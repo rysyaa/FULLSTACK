@@ -1,0 +1,9 @@
+.fav_container{
+    padding-top: 6em;
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12em;
+}

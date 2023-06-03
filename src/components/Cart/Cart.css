@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     font-family: 'Ubuntu', sans-serif;
+} */
+
+.cart_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 12em;
+    padding-top: 6em;
 }

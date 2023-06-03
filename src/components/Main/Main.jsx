@@ -7,6 +7,7 @@ import mainvideo3 from "../../video/mainvideo3.mp4";
 import mainvideo4 from "../../video/mainvideo4.mp4";
 import mainvideo5 from "../../video/mainvideo5.mp4";
 import mainlogo from "../../assets/mainlogo2.png";
+import shopTickets from "../../assets/shopTickets.png"
 import { Link } from "react-router-dom";
 
 const Main = () => {
@@ -37,7 +38,9 @@ const Main = () => {
             <h5>where do you going</h5>
           </div>
           <div className="main_btn">
-            <button>EXPLORE NOW</button>
+            <Link to="/shop">
+            <button> <img style={{width: "2vw"}} src={shopTickets} alt="" /> BUY TICKETS</button>
+            </Link>
           </div>
         </div>
       </div>

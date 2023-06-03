@@ -1,6 +1,14 @@
-// export const JSON_API_PEOPLE = "http://localhost:8000/clients";
+export const CART = {
+  GET_CART: "GET_CART",
+  GET_CART_LENGTH: "GET_CART_LENGTH",
+};
 
-// export const ACTIONS = {
-//     GET_PEOPLE: "GET_PEOPLE",
-//     GET_PEOPLE_DETAILS: "GET_PEOPLE_DETAILS",
-// }
+export const FAV = {
+  GET_FAV: "GET_FAV",
+  GET_FAV_LENGTH: "GET_FAV_LENGTH",
+};
+
+export const ACTIONS = {
+  GET_PRODUCTS: "GET_PRODUCTS",
+  GET_PRODUCT_DETAILS: "GET_PRODUCT_DETAILS",
+};
