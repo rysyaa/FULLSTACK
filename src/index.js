@@ -7,18 +7,24 @@ import { BrowserRouter } from "react-router-dom";
 import AuthContextProvider from "./context/AuthContextProvider";
 import CartContextProvider from "./context/CartContextProvider";
 import FavContextProvider from "./context/FavContextProvider";
+import CountryContextProvider from "./context/CountryContextProvider";
+import BuyContextProvider from "./context/BuyContextProvider";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <FavContextProvider>
-      <CartContextProvider>
-        <AuthContextProvider>
-          <PeopleContextProvider>
-            <App />
-          </PeopleContextProvider>
-        </AuthContextProvider>
-      </CartContextProvider>
-    </FavContextProvider>
+    <BuyContextProvider>
+      <CountryContextProvider>
+        <FavContextProvider>
+          <CartContextProvider>
+            <AuthContextProvider>
+              <PeopleContextProvider>
+                <App />
+              </PeopleContextProvider>
+            </AuthContextProvider>
+          </CartContextProvider>
+        </FavContextProvider>
+      </CountryContextProvider>
+    </BuyContextProvider>
   </BrowserRouter>
 );

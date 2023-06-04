@@ -59,6 +59,8 @@ import Login from "../components/Cart/Login";
 import ShopTickets from "../components/Cart/ShopTickets";
 import Cart from "../components/Cart/Cart";
 import Favorites from "../components/Cart/Favorites";
+import Country from "../components/Cart/Country";
+import Reviews from "../components/Cart/Reviews";
 
 const AllRoutes = () => {
   return (
@@ -123,6 +125,8 @@ const AllRoutes = () => {
         <Route path="/shop" element={<ShopTickets />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/favorites" element={<Favorites />} />
+        <Route path="/country" element={<Country />} />
+        <Route path="/reviews" element={<Reviews />} />
       </Routes>
     </div>
   );

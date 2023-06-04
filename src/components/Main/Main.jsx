@@ -7,7 +7,7 @@ import mainvideo3 from "../../video/mainvideo3.mp4";
 import mainvideo4 from "../../video/mainvideo4.mp4";
 import mainvideo5 from "../../video/mainvideo5.mp4";
 import mainlogo from "../../assets/mainlogo2.png";
-import shopTickets from "../../assets/shopTickets.png"
+import shopTickets from "../../assets/shopTickets.png";
 import { Link } from "react-router-dom";
 
 const Main = () => {
@@ -26,12 +26,16 @@ const Main = () => {
         </div>
         <div className="main_world2">
           <div className="main_country">
-            <h3>COUNTRY</h3>
-            <h5>where do you wont</h5>
+            <Link to="country">
+              <h3>COUNTRY</h3>
+            </Link>
+            <h5>country reviews</h5>
           </div>
           <div className="main_date">
-            <h3>DATE</h3>
-            <h5>when do you wont</h5>
+            <Link to="/reviews">
+            <h3>REVIEWS</h3>
+            </Link>
+            <h5>country ranking</h5>
           </div>
           <div className="main_guest">
             <h3>GUEST</h3>
@@ -39,7 +43,11 @@ const Main = () => {
           </div>
           <div className="main_btn">
             <Link to="/shop">
-            <button> <img style={{width: "2vw"}} src={shopTickets} alt="" /> BUY TICKETS</button>
+              <button>
+                {" "}
+                <img style={{ width: "2vw" }} src={shopTickets} alt="" /> BUY
+                TICKETS
+              </button>
             </Link>
           </div>
         </div>
