@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useCart } from "../../context/CartContextProvider";
 import { useNavigate } from "react-router-dom";
-import "./Cart.css"
+import "./Cart.css";
 
 const Cart = () => {
   const { getCart, cart, changeProductCount, deleteCartProduct } = useCart();
@@ -19,7 +19,10 @@ const Cart = () => {
   };
 
   return (
-    <div style={{ minHeight: "100vh", backgroundColor: "gray" }}>
+    <div
+      className="cart_con"
+      style={{ minHeight: "100vh", backgroundColor: "gray" }}
+    >
       <div className="cart_container">
         {cart?.products.map((row) => (
           <div
@@ -48,6 +51,7 @@ const Cart = () => {
               <h6 className="cart__date">Where: {row.item.arrival}</h6>
             </div>
             <div
+              className="div_stl"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -75,6 +79,7 @@ const Cart = () => {
               />
               <h4 align="right">Итого: {row.subPrice} ₽</h4>
               <button
+                className="h4_btn"
                 onClick={() => deleteCartProduct(row.item.id)}
                 style={{
                   border: "none",
@@ -91,22 +96,23 @@ const Cart = () => {
           </div>
         ))}
       </div>
-        <div className="cart__buy">
-          <h3>Total: {cart?.totalPrice} $</h3>
-          <button
-            onClick={cartCleaner}
-            style={{
-              border: "none",
-              borderRadius: "4px",
-              padding: "0.7em 1em",
-              fontWeight: "600",
-              backgroundColor: "brown",
-              cursor: "pointer",
-            }}
-          >
-            BUY
-          </button>
-        </div>
+      <div className="cart__buy">
+        <h3>Total: {cart?.totalPrice} $</h3>
+        <button
+          className="car_btn"
+          onClick={cartCleaner}
+          style={{
+            border: "none",
+            borderRadius: "4px",
+            padding: "0.7em 1em",
+            fontWeight: "600",
+            backgroundColor: "brown",
+            cursor: "pointer",
+          }}
+        >
+          BUY
+        </button>
+      </div>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useFav } from "../../context/FavContextProvider";
-import "./Favorites.css"
+import "./Favorites.css";
 
 const Favorites = () => {
   const { getCart, cart, deleteCartProduct } = useFav();
@@ -10,7 +10,10 @@ const Favorites = () => {
   }, []);
 
   return (
-    <div style={{minHeight: "100vh", backgroundColor: "gray"}}>
+    <div
+      className="fav_con"
+      style={{ minHeight: "100vh", backgroundColor: "gray" }}
+    >
       <div className="fav_container">
         {cart?.products.map((row) => (
           <div
@@ -45,7 +48,10 @@ const Favorites = () => {
                 paddingRight: "2em",
               }}
             ></div>
-            <button onClick={() => deleteCartProduct(row.item.id)}>
+            <button
+              className="fav_btn"
+              onClick={() => deleteCartProduct(row.item.id)}
+            >
               delete
             </button>
           </div>

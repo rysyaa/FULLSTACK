@@ -9,6 +9,26 @@
       "flight time": "19h 55m",
       "flight name": "Airbus A321‑100/200",
       "price": 456
+    },
+    {
+      "id": 2,
+      "departure": "",
+      "arrival": "",
+      "departure date": "",
+      "arrival date": "",
+      "flight time": "",
+      "flight name": "",
+      "price": 1
+    },
+    {
+      "id": 3,
+      "departure": "",
+      "arrival": "",
+      "departure date": "",
+      "arrival date": "",
+      "flight time": "",
+      "flight name": "",
+      "price": 1
     }
   ],
   "Category": [
