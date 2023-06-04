@@ -1,9 +1,52 @@
-.fav_container{
-    padding-top: 6em;
-    display: flex;
-    width: 90vw;
-    margin: 0 auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12em;
+.fav_con {
+  background-image: url(../../assets/ticket-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.fav_container {
+  padding-top: 6em;
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12em;
+}
+.fav_container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.fav__photo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.fav__info {
+  flex: 1;
+}
+
+.fav__name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.fav__title,
+.fav__date {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.fav_btn {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: 600;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
 }
